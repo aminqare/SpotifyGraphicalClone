@@ -1,0 +1,155 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #121212;
+    -fx-text-fill: #fff;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #b3b3b3;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-border-color: #444;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-prompt-text-fill: #b3b3b3;
+}
+
+.button {
+    -fx-background-color: #1db954;
+    -fx-text-fill: #fff;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #1ed760;
+}
+
+.container {
+    -fx-background-color: #000;
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.logo {
+    -fx-font-size: 24px;
+    -fx-text-fill: #fff;
+}
+
+.social-button {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-border-radius: 20px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+}
+
+.social-button:hover {
+    -fx-background-color: #444;
+}
+
+.social-icon {
+    -fx-padding-right: 10px;
+}
+
+.toggle-switch {
+    -fx-background-color: #1db954;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+}
+
+.background {
+    -fx-background-color: #121212;
+    -fx-padding: 50px;
+    -fx-alignment: center;
+}
+
+.home-container {
+    -fx-background-color: #121212;
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+}
+
+.section-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #fff;
+}
+
+.artist-card, .genre-card {
+    -fx-background-color: #333;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+
+.artist-card:hover, .genre-card:hover {
+    -fx-background-color: #444;
+}
+
+.artist-image, .genre-image {
+    -fx-fit-height: 100px;
+    -fx-fit-width: 100px;
+    -fx-background-radius: 50%;
+}
+.artist-bio {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+}
+
+.artist-listeners {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+}
+
+.song-item {
+    -fx-padding: 10px 0;
+}
+
+.play-button, .playlist-button {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+}
+
+.play-button:hover, .playlist-button:hover {
+    -fx-background-color: #1AA34A;
+}
+.artist-item {
+    -fx-padding: 10px 0;
+    -fx-cursor: hand;
+}
+
+.artist-item:hover {
+    -fx-background-color: #f0f0f0;
+}
+.song-detail {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-padding: 5px 0;
+}
+
+.play-button {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+}
+
+.play-button:hover {
+    -fx-background-color: #1AA34A;
+}
+
